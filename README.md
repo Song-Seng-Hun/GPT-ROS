@@ -71,6 +71,11 @@ https://github.com/addinedu-amr-2th/robot-repo-4/assets/69943723/4dd73bd7-c1d2-4
 - yolo_publisher : 
 #### om_pkg : ChatGPT 명령에 의해 로봇팔을 제어하는 패키지
 - om_teleopkey : 
+## 사용한 외부 도구와 라이선스
+- 이 저장소의 코드는 [LICENSE](LICENSE)의 MIT 라이선스를 따릅니다.
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics): `yolo_pkg`에서 `ultralytics` 패키지와 COCO 사전학습 가중치(`yolov8m.pt`)를 씁니다. 이 패키지와 가중치는 AGPL-3.0 라이선스이며 저장소에는 들어 있지 않습니다.
+- [OpenAI API](https://platform.openai.com/): ChatGPT 호출과 GPT-3(davinci) 파인튜닝에 썼습니다. API 키는 저장소에 없고, 실행할 때 별도 파일에서 읽습니다.
+- 음성 인식은 [SpeechRecognition](https://github.com/Uberi/speech_recognition) 패키지의 Google Web Speech API, 음성 합성은 [gTTS](https://github.com/pndurette/gTTS)를 씁니다.
 ## 발표 자료
 - [발표 PPT](https://docs.google.com/presentation/d/1Db-Mb1rRizueh5NoOPT9ax4vFm7Z98R1q-yJYuG1zGs/edit?usp=sharing)
 ## 팀원 소개
